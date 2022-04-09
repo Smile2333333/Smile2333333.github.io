@@ -2049,16 +2049,25 @@ ul li {
   background-color: white;
   border-radius: 50%;
 }
-.power {
-  width: 10%;
-  position: absolute;
-  right: 10px;
-  top: 5px;
-  background-color: white;
-  border-radius: 50%;
-}
 @media screen and (max-width: 768px) {
   .gq {
  display:none; }
+ }
+ .gg {
+   position: fixed;
+   bottom: 0px;
+   right: 0;
+   width: 300px;
+   display: none; 
+   border: 3px solid #003e7e;
+   border-radius: 3px;
+ }
+ .ggPower {
+    width: 10%;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-color: #bbddff;
+    border-radius: 30%;
  }
 /*# sourceMappingURL=style.css.map */
